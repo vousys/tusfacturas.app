@@ -19,7 +19,7 @@
 Desarrollado por [TusFacturasAPP](https://www.tusfacturas.app/) — en producción desde 2015, con el respaldo de un estudio impositivo que mantiene la plataforma al día con la normativa argentina.
 
 📚 **Documentación completa:** [developers.tusfacturas.app](https://developers.tusfacturas.app/)
-🧪 **Probar gratis:** [Crear cuenta de prueba]([https://www.tusfacturas.app/probar-gratis-api-factura-electronica-tusfacturasapp](https://www.tusfacturas.app/probar-gratis-api-factura-electronica-tusfacturasapp))
+🧪 **Probar gratis:** [Crear cuenta de prueba](https://www.tusfacturas.app/probar-gratis-api-factura-electronica-tusfacturasapp)
 
 ---
 
@@ -39,19 +39,11 @@ Esta API Rest para ARCA te resuelve todo eso detrás de un único `POST` con JSO
 
 ---
 
-## Instalación
-
-### SDK PHP
-
-Cloná el repositorio o descargá la carpeta [`/php`](https://github.com/vousys/tusfacturas/tree/master/php):
-
-```bash
-git clone https://github.com/vousys/tusfacturas.git
-```
-
-### Cualquier otro lenguaje
+## Integración
 
 No necesitás SDK. La API es REST pura con entrada y salida en JSON, así que funciona con `requests`, `axios`, `HttpClient`, `RestSharp` o lo que uses. Ya está en producción con PHP, Python, Node.js, Ruby, .NET y hasta Visual Basic 6.0, sobre AWS, Google Cloud, servidores dedicados y hostings compartidos.
+
+> **¿Usás PHP?** Hay un SDK listo para copiar a tu proyecto en [vousys/tusfacturas](https://github.com/vousys/tusfacturas) — sin dependencias externas, dos archivos.
 
 **Especificaciones técnicas**
 
@@ -66,7 +58,7 @@ No necesitás SDK. La API es REST pura con entrada y salida en JSON, así que fu
 
 ---
 
-## Quickstart: emitir una factura en 1 request
+## Quickstart: emitir una factura en ARCA en 1 request
 
 Endpoint de [facturación instantánea e individual](https://developers.tusfacturas.app/api-factura-electronica-afip-facturacion-ventas/api-factura-electronica-afip-facturacion-nuevo-comprobante):
 
