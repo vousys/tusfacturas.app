@@ -235,18 +235,6 @@ Los cambios de la API se publican en el [changelog oficial](https://developers.t
 
 ---
 
-## Contribuir
-
-Los aportes son bienvenidos. Si encontrás un bug en el SDK, querés portarlo a otro lenguaje o sumar un ejemplo de integración:
-
-1. Abrí un [issue](https://github.com/vousys/tusfacturas/issues) describiendo el caso
-2. Forkeá el repo y creá una rama (`git checkout -b feature/mi-mejora`)
-3. Mandá un Pull Request
-
-Si integraste la API en un lenguaje o framework que todavía no está acá (Python, Node.js, Laravel, Django, .NET, Go, Ruby on Rails), abrí un issue y lo enlazamos desde este README.
-
----
-
 ## Soporte
 
 - 🌐 [Contacto y chat en vivo](https://www.tusfacturas.app/contacto.html)
